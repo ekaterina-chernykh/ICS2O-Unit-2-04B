@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
- function calculate() {
+function calculate() {
   // input
   const height = parseInt(document.getElementById("height-of-triangle").value)
   const base = parseInt(document.getElementById("base-of-triangle").value)
